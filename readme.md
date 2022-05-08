@@ -28,4 +28,4 @@ Component looks like above.
 - Lock Inner-Outer box offset: Lock the offset of inner and outer box.
 - Reset to original bounds: When messed up, press this to reset to original bounds.
 - Rollback to original mesh: When messed up, press this to reset to original mesh.
-- Save as prefab: GameObject's prefab will be created under selected folder with mesh as a SubAsset. (:caution: Creating prefab with Drag&Drop won't create mesh properly.)
+- Save as prefab: GameObject's prefab will be created under selected folder with mesh as a SubAsset. (:warning: Creating prefab with Drag&Drop won't create mesh properly.)
