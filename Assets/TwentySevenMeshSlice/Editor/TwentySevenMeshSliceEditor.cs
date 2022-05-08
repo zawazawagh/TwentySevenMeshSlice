@@ -52,13 +52,13 @@ namespace TwentySevenMeshSlice
             _lastTool = Tools.current;
             _27MeshSlice = serializedObject.targetObject as TwentySevenMeshSlice;
             Assert.IsNotNull(_27MeshSlice);
-            _editBarButton = new ToolbarButton(OnEditButtonPressed, "EditCollider", "Edit Slice Bounds");
+            _editBarButton = new ToolbarButton(OnEditButtonPressed, "EditCollider", "Edit slice bounds");
             _mirrorBarButton = new ToolbarButton(null, "Mirror", "Mirror edit mode");
             _resetBarButton = new ToolbarButton(ResetBoxBounds, "RotateTool", "Reset to original bounds");
             _scaleBarButton = new ToolbarButton(OnScaleButtonPressed, "ScaleTool", "Scale Mesh");
             _lockButton = new ToolbarButton(null, "LockIcon-On", "Lock Inner-Outer box offset");
             _rollbackMeshBarButton = new ToolbarButton(OnRollBackButtonPressed, "back", "Rollback to original mesh");
-            _saveBarButton = new ToolbarButton(SaveMesh, "SaveAs", "Save mesh");
+            _saveBarButton = new ToolbarButton(SaveMesh, "SaveAs", "Save as prefab");
             Undo.undoRedoPerformed += OnUndoRedoPerformed;
         }
 
